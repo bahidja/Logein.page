@@ -65,7 +65,10 @@ body{
 .num.n1{
     padding-top: 20px;
 }
-
+.num.n1 .circle{
+    background-color: hsl(206, 94%, 87%);
+    color: black;
+}
  span{
     font-weight:600;
     color: hsl(229, 24%, 87%);
