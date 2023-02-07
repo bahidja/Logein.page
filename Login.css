@@ -1,5 +1,7 @@
-*{
-       
+*{  font-family: 'Dancing Script', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
     padding: 0px;
  }
 body{
@@ -9,6 +11,7 @@ body{
  background-color: hsl(231, 100%, 99%);
  height: 1150px;
  margin:30px;
+ font-size: 16px;  
  
 }
 .cont{
@@ -40,6 +43,8 @@ body{
 }
 .num{
  display: flex;
+ color:hsl(229, 24%, 87%); 
+ display: flex;
 }
 .circle{
  text-align: center;
@@ -48,7 +53,18 @@ body{
  width: 30px;
  line-height: 30px;
  border-radius: 50%;
- border:2px solid rgb(11, 11, 12) ;
+ border:2px solid hsl(229, 24%, 87%);
  margin-right: 20px;
  
+}
+.num.n1{
+    padding-top: 20px;
+}
+ span{
+    font-weight:600;
+    color: hsl(229, 24%, 87%);
+}
+p{
+    color: hsl(231, 11%, 63%);
+
 }
